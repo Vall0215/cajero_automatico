@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cajero Automático</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Cajero Automático</h1>
+    <p class="subtitle">Simulador con historial de movimientos</p>
+
+    <div class="card">
+      <h2>Saldo actual</h2>
+      <p id="saldo">$100.000</p>
+    </div>
+
+    <div class="card">
+      <label for="monto">Ingresa un monto</label>
+      <input type="number" id="monto" placeholder="Ej: 20000" />
+
+      <div class="buttons">
+        <button id="depositarBtn">Depositar</button>
+        <button id="retirarBtn">Retirar</button>
+      </div>
+
+      <p id="mensaje"></p>
+    </div>
+
+    <div class="card">
+      <h2>Historial de movimientos</h2>
+      <ul id="historial"></ul>
+    </div>
+  </div>
+
+  <script src="functions.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
