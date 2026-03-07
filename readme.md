@@ -1,25 +1,43 @@
-# Cajero Automático
+# 🏦 Cajero Automático 
 
-Proyecto desarrollado en JavaScript, HTML y CSS para simular las operaciones básicas de un cajero automático.
+Simulación de un Cajero Automático (ATM) desarrollada con HTML, CSS y JavaScript como práctica del flujo de trabajo con Git y GitHub.
+Este proyecto permite realizar operaciones básicas como depósitos, retiros y visualización del historial de movimientos, simulando el funcionamiento de un cajero automático.
 
 ## Funcionalidades
-- Consultar saldo actual
+- Consultar saldo
 - Depositar dinero
 - Retirar dinero
-- Validar montos inválidos
-- Validar saldo insuficiente
-- Mostrar historial de movimientos
+- Historial de movimientos
+
+## Lógica del programa
+El sistema funciona mediante:
+- Manipulación del DOM con JavaScript
+- Actualización dinámica del saldo
+- Registro automático de movimientos en el historial
+- Validación de montos ingresados
+
+## Tecnologías utilizadas
+- HTML
+- CSS
+- JavaScript
+- Git
+- GitHub
 
 ## Estructura del proyecto
-- `index.html`: estructura principal de la interfaz
-- `style.css`: estilos visuales del proyecto
-- `app.js`: lógica principal del cajero automático
-- `functions.js`: funciones auxiliares para formateo y mensajes
-
-## Cómo ejecutar el proyecto
-1. Descargar o clonar el repositorio.
-2. Abrir la carpeta del proyecto en Visual Studio Code.
-3. Ejecutar el archivo `index.html` en el navegador.
+cajero_automatico │ ├── index.html ├── style.css ├── app.js ├── functions.js └── README.md
 
 ## Autor
-Valery Hernandez
+Valery Hernández Morales  
+Ingeniería de Sistemas  
+Universidad de la Costa (CUC)
+
+## Asignatura
+Buenas Prácticas de Programación de Software
+
+## Objetivo del proyecto
+Aplicar los siguientes concepros de manera práctica:
+- Creación de repositorios con Git
+- Manejo de ramas
+- Uso de commits
+- Creación de Pull Requests
+- Trabajo con repositorios en GitHub
