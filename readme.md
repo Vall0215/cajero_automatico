@@ -24,7 +24,13 @@ El sistema funciona mediante:
 - GitHub
 
 ## Estructura del proyecto
-cajero_automatico │ ├── index.html ├── style.css ├── app.js ├── functions.js └── README.md
+cajero_automatico 
+│ 
+├── index.html 
+├── style.css 
+├── app.js 
+├── functions.js 
+└── README.md
 
 ## Autor
 Valery Hernández Morales  
