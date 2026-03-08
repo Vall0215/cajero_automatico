@@ -3,23 +3,32 @@
 <head>
 <meta charset="UTF-8">
 <title>Cajero Automático</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
 
-<h1>Cajero Automático</h1>
+<div class="container">
 
-<h2>Saldo actual</h2>
-<p id="saldo">$100000</p>
+<h1>🏦Cajero Automático</h1>
+
+<h3>Saldo actual</h3>
+<p id="saldo"></p>
 
 <input type="number" id="monto" placeholder="Ingrese monto">
+
+<br><br>
 
 <button onclick="depositar()">Depositar</button>
 <button onclick="retirar()">Retirar</button>
 
 <h3>Historial</h3>
 <ul id="historial"></ul>
+
+</div>
 
 <script src="functions.js"></script>
 <script src="app.js"></script>

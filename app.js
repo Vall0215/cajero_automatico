@@ -1,39 +1,46 @@
-let saldo = 100000;
+let saldo = 50000;
 
 function actualizarSaldo() {
-  document.getElementById("saldo").innerText = "$" + saldo;
+  document.getElementById("saldo").innerText = formatearPesos(saldo);
 }
 
 function depositar() {
-
   let monto = Number(document.getElementById("monto").value);
 
-  if(monto <= 0){
+  if (monto <= 0 || isNaN(monto)) {
     alert("Ingrese un monto válido");
     return;
   }
 
   saldo += monto;
-
   actualizarSaldo();
 
-  agregarHistorial("Depósito de $" + monto);
+  let mensaje = crearMensajeMovimiento("Depósito", monto);
+  agregarHistorial(mensaje);
+
+  document.getElementById("monto").value = "";
 }
 
-function retirar(){
-
+function retirar() {
   let monto = Number(document.getElementById("monto").value);
 
-  if(monto > saldo){
+  if (monto <= 0 || isNaN(monto)) {
+    alert("Ingrese un monto válido");
+    return;
+  }
+
+  if (monto > saldo) {
     alert("Saldo insuficiente");
     return;
   }
 
   saldo -= monto;
-
   actualizarSaldo();
 
-  agregarHistorial("Retiro de $" + monto);
+  let mensaje = crearMensajeMovimiento("Retiro", monto);
+  agregarHistorial(mensaje);
+
+  document.getElementById("monto").value = "";
 }
 
 actualizarSaldo();

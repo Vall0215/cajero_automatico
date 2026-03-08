@@ -1,99 +1,60 @@
-* {
-  box-sizing: border-box;
-}
+body{
+margin:0;
+min-height:100vh;
+font-family: Arial, sans-serif;
 
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background-color: #f3f4f6;
-  color: #111827;
+background: linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+
+display:flex;
+justify-content:center;
+align-items:center;
 }
 
 .container {
-  max-width: 650px;
-  margin: 40px auto;
-  padding: 20px;
+    background: rgba(255,255,255,0.92);
+    padding: 30px;
+    border-radius: 12px;
+    width: 400px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
 }
 
-h1 {
-  text-align: center;
-  margin-bottom: 8px;
+h1{
+    text-align:center;
+    font-size:36px;
+    font-family: "Playfair Display", serif;
 }
 
-.subtitle {
-  text-align: center;
-  color: #6b7280;
-  margin-bottom: 30px;
+#saldo{
+    font-size:28px;
+    color:#2f6ae0;
+    font-weight:bold;
 }
 
-.card {
-  background-color: #ffffff;
-  border-radius: 14px;
-  padding: 20px;
-  margin-bottom: 20px;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+button{
+    background:#2f6ae0;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    margin:5px;
+    border-radius:6px;
+    cursor:pointer;
 }
 
-#saldo {
-  font-size: 32px;
-  font-weight: bold;
-  color: #2563eb;
-  margin: 0;
+input{
+width:100%;
+padding:8px;
+margin-top:10px;
+margin-bottom:15px;
+border-radius:6px;
+border:1px solid #ccc;
 }
 
-label {
-  display: block;
-  margin-bottom: 10px;
-  font-weight: bold;
+button:hover{
+    background:#1e4fb3;
 }
 
-input {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #d1d5db;
-  border-radius: 8px;
-  margin-bottom: 15px;
-  font-size: 16px;
-}
-
-.buttons {
-  display: flex;
-  gap: 10px;
-}
-
-button {
-  flex: 1;
-  padding: 12px;
-  border: none;
-  border-radius: 8px;
-  background-color: #2563eb;
-  color: white;
-  font-size: 16px;
-  cursor: pointer;
-}
-
-button:hover {
-  background-color: #1d4ed8;
-}
-
-#mensaje {
-  margin-top: 15px;
-  font-weight: bold;
-}
-
-.success {
-  color: #15803d;
-}
-
-.error {
-  color: #dc2626;
-}
-
-#historial {
-  margin: 0;
-  padding-left: 20px;
-}
-
-#historial li {
-  margin-bottom: 8px;
+#historial li{
+margin-bottom:6px;
+color:#333;
+font-size:14px;
 }
