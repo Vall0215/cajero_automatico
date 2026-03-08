@@ -3,6 +3,9 @@
 Simulación de un Cajero Automático (ATM) desarrollada con HTML, CSS y JavaScript como práctica del flujo de trabajo con Git y GitHub.
 Este proyecto permite realizar operaciones básicas como depósitos, retiros y visualización del historial de movimientos, simulando el funcionamiento de un cajero automático.
 
+## Demostración del cajero automatico
+![Demo del Cajero Automático](demo.png)
+
 ## Funcionalidades
 
 - Consultar saldo
@@ -35,6 +38,7 @@ cajero_automatico
 ├── style.css
 ├── app.js
 ├── functions.js
+├── demo.png
 └── README.md
 ```
 
