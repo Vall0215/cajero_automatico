@@ -4,6 +4,7 @@ Simulación de un Cajero Automático (ATM) desarrollada con HTML, CSS y JavaScri
 Este proyecto permite realizar operaciones básicas como depósitos, retiros y visualización del historial de movimientos, simulando el funcionamiento de un cajero automático.
 
 ## Demostración del cajero automatico
+Simulador básico de cajero automático desarrollado en JavaScript. Permite depositar, retirar dinero y visualizar el historial de movimientos.
 ![Demo del Cajero Automático](demo.png)
 
 ## Funcionalidades
