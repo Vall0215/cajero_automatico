@@ -5,6 +5,7 @@ Este proyecto permite realizar operaciones básicas como depósitos, retiros y v
 
 ## Demostración del cajero automatico
 Simulador básico de cajero automático desarrollado en JavaScript. Permite depositar, retirar dinero y visualizar el historial de movimientos.
+
 ![Demo del Cajero Automático](demo.png)
 
 ## Funcionalidades
